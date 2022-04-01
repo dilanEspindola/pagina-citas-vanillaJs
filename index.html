@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Agendar Citas</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="contenedor-form">
+        <h1 class="">Agenda de citas</h1>
+        <form action="" class="">
+          <div class="content-input-label">
+            <label for="" class="">Nombre:</label>
+            <input class="" type="text" placeholder="Nombre" id="nombre" />
+          </div>
+          <div class="content-input-label">
+            <label for="" class="">Apellido:</label>
+            <input class="" type="text" placeholder="Apellido" id="apellido" />
+          </div>
+          <div class="content-input-label">
+            <label for="" class="">Correo:</label>
+            <input class="" type="text" placeholder="Correo" id="correo" />
+          </div>
+          <div class="content-input-label">
+            <label for="" class="">Fecha</label>
+            <input type="date" class="" id="fecha" />
+          </div>
+          <div class="content-input-label">
+            <label for="" class="">Hora:</label>
+            <input class="" type="time" id="hora" />
+          </div>
+          <button type="submit" class="btn-añadir">Añadir</button>
+        </form>
+      </div>
+
+      <div class="contenedor-data"></div>
+
+      <div class="buscador">
+        <input
+          type="search"
+          placeholder="busqueda por nombre..."
+          class="buscar"
+        />
+      </div>
+    </div>
+
+    <script src="./scripts/index.js" type="module"></script>
+  </body>
+</html>
